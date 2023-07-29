@@ -5,9 +5,6 @@ Distributed Data Parallel과 Pipeline Parallelism를 이용해 Transformer 모�
 **저자**: `Pritam Damania <https://github.com/pritamdamania87>`_
 
 이 튜토리얼에서는 어떻게 다수의 GPU에서 `Distributed Data Parallel <https://pytorch.org/docs/stable/generated/torch.nn.parallel.DistributedDataParallel.html>`__과
-`Pipeline Parallelism <https://pytorch.org/docs/stable/pipeline.html>`__.를 사용하여 대규모 Transformer 모델을 학습하는지 보여줍니다.
-This tutorial is an extension of the `Sequence-to-Sequence Modeling with nn.Transformer and TorchText <https://pytorch.org/tutorials/beginner/transformer_tutorial.html>`__ tutorial
-and scales up the same model to demonstrate how Distributed Data Parallel and Pipeline Parallelism can be used to train Transformer models.
 
 Prerequisites:
 
